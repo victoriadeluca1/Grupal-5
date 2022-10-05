@@ -14,38 +14,39 @@
 
 
 <body>
-  
+
   <nav class="navbar navbar-expand-lg navbar-dark bg-secondary p-1">
     <div class="container">
- <a class="navbar-brand" href="#">Donas🍩</a>
+      <a class="navbar-brand" href="#">Donas Enzin🍩</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
-      </button> 
+      </button>
 
-
-       <div class="row justify-content-around">
-          <div class="col-2">
-            <a href="#" class="text-white">Info</a>
-          </div>
-          <div class="col-2">
-             <a href="#" class="text-white">Tipos</a>
-          </div>
-          <div class="col-2">
-            <a href="#" class="text-white">Más</a>
-          </div> 
-  
-        </div>
-        </div>
-        
-    <div>
-      <div class="input-group mb-3">
-        <input type="text" class="form-control" placeholder="Search" aria-label="Recipient's username" aria-describedby="button-addon2">
-        <button class="btn btn-light" type="button" id="button-addon2">Button</button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav w-100 justify-content-between">
+          <li class="nav-item">
+            <li><a href="#" class="text-white dropdown-item">Info</a></li>
+          </li>
+          <li class="nav-item">
+            <li><a href="#" class="text-white dropdown-item">Tipos</a></li>
+          </li>
+          <li class="nav-item">
+            <li><a href="#" class="text-white dropdown-item">Más</a></li>
+          </li>
+          <li class="nav-item">
+            <button class="btn btn-secondary escondido"  id="opcionesBtn">Opciones</button>
+          </li>
+          <li>
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Dona con..." aria-label="Recipient's username" aria-describedby="button-addon2">
+              <button class="btn btn-light" type="button" id="button-addon2">Search</button>
+            </div>
+          </li>
+        </ul>
       </div>
-    </div>
-  </div>
 
+    </div>
   </nav>
 
   <div>
@@ -56,29 +57,31 @@
  </div>
  
 
-  <div class="container">
+  <div class="container" >
   <div class="row">
-    <div class="col-sm">
+    <div class="col-sm" id="opciones">
     <ul class="list-group">
-      <li class="list-group-item">Precios</li>
-      <li class="list-group-item">Opcion2</li>
-      <li class="list-group-item">Encargos</li>
-      <li class="list-group-item">Ingredientes</li>
+      <a class="list-group-item">Precios</a>
+      <a class="list-group-item">Opcion2</a>
+      <a class="list-group-item">Encargos</a>
+      <a class="list-group-item">Ingredientes</a>
     </ul>
 </div>
 
 <div class="col-md">
-  <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis, eligendi! Beatae, tenetur omnis? Harum minus quidem consequuntur quo quisquam saepe illum odio distinctio? Aut facere quo reprehenderit, itaque id ipsum.</p>
+  <p> Historia
+    Los orígenes de las donas se disputan. Unos historiadores afirman que sus precursores se pueden encontrar entre la gente medieval del norte de Europa; pero la forma popular que se asocia hoy en día con el término doughnut se realizó por primera vez en 1847, cuando un marinero llamado Hanson Gregory, hiciera el famoso agujero con la tapa de un pimentero de un barco,4​ para solucionar el problema de que la masa no se friera bien en el centro. </p>
 </div>
 <div class="col-sm">
-  <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis, eligendi! Beatae, tenetur omnis? Harum minus quidem consequuntur quo quisquam saepe illum odio distinctio? Aut facere quo reprehenderit, itaque id ipsum.</p>
+  <p> Se considera generalmente que el origen del dónut viene del dulce navideño holandés oliebollen (bolas de aceite), que estos trajeron a Nueva Ámsterdam (futura Nueva York) en el siglo XVI. En los siglos siguientes evolucionó hacia el dónut que hoy en día se conoce.</p>
 </div>
 <div class="col-sm">
-  <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis, eligendi! Beatae, tenetur omnis? Harum minus quidem consequuntur quo quisquam saepe illum odio distinctio? Aut facere quo reprehenderit, itaque id ipsum.</p>
+  <p> En España, en 1962 el empresario y panadero Andrés Costafreda constituyó la empresa Donut Corporation, tras un viaje a Estados Unidos.5​ Comenzó a fabricarlos y comercializarlos bajo la marca registrada Donuts, sobre la que mantiene la propiedad exclusiva en España.6​ Actualmente, tras la unificación del Grupo Panrico en 1999, es esta corporación la que produce y comercializa bollería bajo este nombre comercial.​</p>
 </div>
 </div>
 
 </body>
+<script src="js/bootstrap.bundle.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <script src="js/script.js"></script>
 </html>

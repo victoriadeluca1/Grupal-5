@@ -16,3 +16,12 @@ function changeText(){
 }
 
 changeText();
+
+let btn = document.getElementById("opcionesBtn");
+let lista = document.getElementById("opciones");
+
+document.addEventListener('DOMContentLoaded', function () {
+  btn.onclick = () => {
+    lista.style.display='';
+}
+});
