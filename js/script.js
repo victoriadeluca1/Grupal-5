@@ -12,7 +12,7 @@ function changeText(){
   }else{
     point = 0;
   }
-  setTimeout(changeText, 1000)
+  setTimeout(changeText, 1500)
 }
 
 changeText();
@@ -20,12 +20,13 @@ changeText();
 let btn = document.getElementById("opcionesBtn");
 let lista = document.getElementById("opciones");
 
-  
+
 
 btn.addEventListener('click', function(){
-  
-  lista.style.display='block';
-  
-})
+  if(lista.classList.contains('visible')){
+    lista.classList.remove('visible');
+  }else{
+  lista.classList.add('visible');}
+});
 
 
