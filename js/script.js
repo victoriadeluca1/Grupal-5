@@ -12,7 +12,7 @@ function changeText(){
   }else{
     point = 0;
   }
-  setTimeout(changeText, 3000)
+  setTimeout(changeText, 1000)
 }
 
 changeText();
@@ -20,8 +20,12 @@ changeText();
 let btn = document.getElementById("opcionesBtn");
 let lista = document.getElementById("opciones");
 
-document.addEventListener('DOMContentLoaded', function () {
-  btn.onclick = () => {
-    lista.style.display='';
-}
-});
+  
+
+btn.addEventListener('click', function(){
+  
+  lista.style.display='block';
+  
+})
+
+

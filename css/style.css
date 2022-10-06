@@ -12,13 +12,37 @@ nav {
 .escondido {
     visibility: hidden;
 }
+/*lg ≥992px*/
 
- @media  screen and (max-width: 768px) {
+/* md 768*/
+@media  screen and (max-width: 768px) {
     #opciones {
+     display: none;
+     width: 100%;
+
+     }
+   
+       #opcionesBtn {
+           visibility: visible;
+           
+       }
+    .titulo1{
         display: none;
+    }
+   
+ }
+/*sm = 576*/
+ @media  screen and (max-width: 576px) { 
+    #opciones {
+     display: none;
+     width: 100%;
     }
     #opcionesBtn {
         visibility: visible;
+        
+    }
+    .titulo1{
+        display: none;
     }
  }
 
